@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Diz a versão do HTML (HTML5) -->
+<html lang="pt-br"> <!-- Tag HTML + idioma do site -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Padrão de caracteres do site -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>DevClub - StarBucks</title>
+</head>
+
+<body>
+    <div class="circulo"></div>
+
+    <img src="./img/logo.png" class="logo">
+
+    <div class="caixa-conteudo">
+
+        <div class="caixa-textos">
+            <h2>
+                It's not just Coffee
+                It's <span class="texto-starbuck">Starbucks</span>
+            </h2>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit odit ab voluptas veritatis quod
+                mollitia amet maxime, aspernatur enim libero saepe ad aliquam quisquam placeat ex alias, deserunt
+                tempore
+                corrupti.</p>
+
+            <button>Clique no Sininho</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img src="./img/img1.png" class="copo">
+        </div>
+    </div>
+
+    <div class="caixa-menu">
+        <img src="./img/thumb1.png" class="botao-menu" onclick="trocarACor('#017143'); trocarImagem('./img/img1.png')" >
+        <img src="./img/thumb2.png" class="botao-menu" onclick="trocarACor('#eb7495'); trocarImagem('./img/img2.png')">
+        <img src="./img/thumb3.png" class="botao-menu" onclick="trocarACor('#d752b1'); trocarImagem('./img/img3.png')">
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
